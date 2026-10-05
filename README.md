@@ -131,8 +131,3 @@ outputs/
 - Apache Spark Documentation
 - PySpark Documentation
 - Matplotlib Documentation
-
-## 👩‍💻 Author
-Tanvi Kadam
-- BE Computer Engineering
-- Atharva College of Engineering
