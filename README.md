@@ -89,35 +89,61 @@ The dataset was cleaned using PySpark by:
 - Removing extreme trip-distance and fare values using defined thresholds.
 
 ## 🚀 How to Run
-1. Clone the Repository
-git clone <your-github-repository-url>
-cd "NYC Taxi Analysis BDA Mini Project"
 
-2. Create a Virtual Environment (Optional)
+### 1. Clone the Repository
+
+```bash
+git clone <your-github-repository-url>
+cd nyc-taxi-analytics
+```
+
+### 2. Create a Virtual Environment (Optional)
+
+```bash
 python -m venv venv
+```
 
 Activate it on Windows:
+
+```bash
 venv\Scripts\activate
+```
 
-3. Install Dependencies
+### 3. Install Dependencies
+
+```bash
 pip install -r requirements.txt
+```
 
-4. Add the Dataset
+### 4. Add the Dataset
+
 Download the NYC Yellow Taxi January 2025 dataset from the official NYC TLC Trip Record Data source.
-Place the following files inside the data/ directory:
+
+Place the following files inside the `data/` directory:
+
+```text
 data/
 ├── yellow_tripdata_2025-01.parquet
 └── taxi_zone_lookup.csv
+```
 
-The large Parquet dataset is intentionally excluded from GitHub through .gitignore.
+> The large Parquet dataset is intentionally excluded from GitHub through `.gitignore`.
 
-5. Run the Project
+### 5. Run the Project
+
 From the project root directory:
+
+```bash
 python src/taxi_analysis.py
+```
 
 The analysis results will be displayed in the terminal.
+
 The generated visualizations will be saved in:
+
+```text
 outputs/
+```
 
 ## 📈 Key Findings
 - 5 PM recorded the highest number of taxi trips.
