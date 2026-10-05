@@ -134,5 +134,5 @@ outputs/
 
 ## 👩‍💻 Author
 Tanvi Kadam
-BE Computer Engineering
-Atharva College of Engineering
+- BE Computer Engineering
+- Atharva College of Engineering
