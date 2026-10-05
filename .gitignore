@@ -1,0 +1,17 @@
+# Large dataset
+data/yellow_tripdata_2025-01.parquet
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+.venv/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
