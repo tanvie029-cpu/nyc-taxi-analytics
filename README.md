@@ -51,7 +51,7 @@ NYC Taxi Analysis BDA Mini Project/
 ├── README.md
 ├── .gitignore
 └── spark_test.py
-
+```
 The large NYC Taxi Parquet dataset is excluded from the GitHub repository using .gitignore.
 
 ## 🔎 Analysis Performed
